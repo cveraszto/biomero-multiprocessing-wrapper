@@ -1,8 +1,8 @@
 # BIOMERO Parallel Wrapper
 
-A lightweight Python wrapper that automatically parallelizes BIOMERO Python processing jobs across all available CPU cores on a compute node.
-This approach is primarily beneficial for **Python versions before 3.13**, which still include the **Global Interpreter Lock (GIL)**.
-Starting with **Python 3.13+ (No-GIL mode)**, true multi-core parallel execution will be possible without workarounds like `multiprocessing`.
+- A lightweight Python wrapper that automatically parallelizes BIOMERO Python processing jobs across all available CPU cores on a compute node.
+- This approach is primarily beneficial for **Python versions before 3.13**, which still include the **Global Interpreter Lock (GIL)**.
+- Starting with **Python 3.13+ (No-GIL mode)**, true multi-core parallel execution will be possible without workarounds like `multiprocessing`.
 
 
 ## Features
