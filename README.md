@@ -3,7 +3,7 @@
 - A lightweight Python wrapper that automatically parallelizes BIOMERO Python processing jobs across all available CPU cores on a compute node.
 - This approach is primarily beneficial for **Python versions before 3.13**, which still include the **Global Interpreter Lock (GIL)**.
 - Starting with **Python 3.13+ (No-GIL mode)**, true multi-core parallel execution will be possible without workarounds like `multiprocessing`.
-
+- You can also read the tutorial Notebook for more info.
 
 ## Features
 
@@ -17,8 +17,13 @@
 Clone and install locally:
 
 ```bash
-git clone https://github.com/<your-username>/biomero-parallel-wrapper.git
-cd biomero-parallel-wrapper
+# Clone the repository
+git clone https://github.com/cveraszto/biomero-multiprocessing-wrapper.git
+
+# Change into the project directory
+cd biomero-multiprocessing-wrapper
+
+# Install the package locally in editable mode
 pip install -e .
 ```
 
