@@ -8,7 +8,7 @@
 ## Visual Overview
 
 ![Diagram 1](docs/diagram_1.png)
-*Multiprocessing diagram*
+
 
 ## Features
 
@@ -54,6 +54,8 @@ python biomero_parallel_wrapper.py user_code/my_processing.py 123
 - `user_code/my_processing.py` → your script to process
 - `123` → an example argument (replace with what your script expects)
 - I built the `biomero_test_project` folder to show how it works. 
+
+![Diagram 2](docs/diagram_2.png)
 
 ## Notes
 
