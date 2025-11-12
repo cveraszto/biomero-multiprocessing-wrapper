@@ -20,6 +20,7 @@ Clone and install locally:
 git clone https://github.com/<your-username>/biomero-parallel-wrapper.git
 cd biomero-parallel-wrapper
 pip install -e .
+```
 
 ## Notes
 
