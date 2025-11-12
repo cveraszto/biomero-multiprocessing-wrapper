@@ -5,6 +5,11 @@
 - Starting with **Python 3.13+ (No-GIL mode)**, true multi-core parallel execution will be possible without workarounds like `multiprocessing`.
 - You can also read the tutorial Notebook for more info.
 
+## Visual Overview
+
+![Diagram 1](docs/diagram1.png)
+*Multiprocessing diagram*
+
 ## Features
 
 - Automatically detects available CPU cores.
@@ -48,6 +53,7 @@ python biomero_parallel_wrapper.py user_code/my_processing.py 123
 
 - `user_code/my_processing.py` → your script to process
 - `123` → an example argument (replace with what your script expects)
+- I built the `biomero_test_project` folder to show how it works. 
 
 ## Notes
 
