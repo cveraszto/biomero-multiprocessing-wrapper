@@ -7,7 +7,7 @@
 
 ## Visual Overview
 
-![Diagram 1](docs/diagram1.png)
+![Diagram 1](docs/diagram_1.png)
 *Multiprocessing diagram*
 
 ## Features
