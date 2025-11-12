@@ -29,12 +29,14 @@ pip install -e .
 
 ## Recommended Project Structure
 
+```bash
 /app/
- ├── biomero/           ← BIOMERO library (mounted or installed)
- ├── biomero_parallel_wrapper.py
- ├── user_code/
- │    └── e.g. my_processing.py
- └── Dockerfile
+├── biomero/                     ← BIOMERO library (mounted or installed)
+├── biomero_parallel_wrapper.py   ← Main wrapper script
+├── user_code/                    ← Your custom processing scripts
+│   └── my_processing.py
+└── Dockerfile                    ← Optional Docker configuration
+```
 
 ## Usage
 
