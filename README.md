@@ -27,6 +27,26 @@ cd biomero-multiprocessing-wrapper
 pip install -e .
 ```
 
+## Recommended Project Structure
+
+/app/
+ ├── biomero/           ← BIOMERO library (mounted or installed)
+ ├── biomero_parallel_wrapper.py
+ ├── user_code/
+ │    └── e.g. my_processing.py
+ └── Dockerfile
+
+## Usage
+
+Run your processing script with the wrapper:
+
+```bash
+python biomero_parallel_wrapper.py user_code/my_processing.py 123
+```
+
+- `user_code/my_processing.py` → your script to process
+- `123` → an example argument (replace with what your script expects)
+
 ## Notes
 
 The wrapper uses Python’s built-in multiprocessing library.
